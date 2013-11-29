@@ -1,6 +1,11 @@
 
 
 <footer>
+    <?php
+     $query = "SELECT * FROM Footer";
+     $result = mysql_query($query);
+     $row = mysql_fetch_array($result);
+     ?>
     <div id="footer" style="position:relative">
 	    <div class="row-fluid">
 
@@ -18,15 +23,11 @@
                     </div>
 
                     <div class="span4">
-                        <center>
-                            <h4 style="position: relative;"><font color="white">Informations</font></h4>
+                        <center><?php echo $row['Titre'];?>
                             </br>
-                            <h5><font color="white">Adresse : 798, 12e rue, Québec, G1J 2M8</font></h5>
-                            <h5><font color="white">Horaire d'atelier : </font></h5>
-                            <h5><font color="white">Lundi au vendredi : 8h00 à 16h00</font></h5>
-                            <h5><font color="white">Samedi et dimanche : 12h00 à 16h00</font></h5>
+                            <?php echo $row['Paragraphe'];?>
                             </br></br></br>
-                            <a href="Plan.php"><button style="text-align: center;" type="button" class="btn btn-primary"><i class="icon-sitemap icon-large">Plan du site</i></button></a>
+<!--                            <a href="Plan.php"><button style="text-align: center;" type="button" class="btn btn-primary"><i class="icon-sitemap icon-large">Plan du site</i></button></a>-->
                         </center>
 
 

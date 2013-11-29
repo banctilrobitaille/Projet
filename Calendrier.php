@@ -5,6 +5,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="calendar/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript">
         function initMenu() {
@@ -12,10 +13,10 @@
             block.addClass("clickable");
             block.hover(function(){window.status = $(this)}, function(){window.status = ""});
 
-            $('.open').hide();
+            $('.open1').hide();
             block.click(
                 function() {
-                    $(this).parents('div:eq(0)').find('.open').slideToggle('fast');
+                    $(this).parents('div:eq(0)').find('.open1').slideToggle('fast');
                 }
             );}
         $(document).ready(function() {initMenu();});
@@ -54,7 +55,7 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -66,7 +67,7 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -78,7 +79,7 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -90,7 +91,7 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -102,38 +103,33 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>2</p></div>
                         <div class="dots">
-                            <ul>
-
-                            </ul>
+                                <ul>
+                                    <li class="blue"</li>
+                                </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                            </ul>
+                        <div class="open1">
+                                <ul>
+                                    <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Samedi</a></li>
+                                </ul>
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day brn">
                         <div class="daybar"><p>3</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="green"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l2 a11"><p>11:00 studying</p></li>
-                                <li class="green l3 a1"><p>14:00 Stratego-game</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -143,32 +139,22 @@
                     <div class="day">
                         <div class="daybar"><p>4</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="green"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l1 a13"><p>13:00 Math</p></li>
-                                <li class="green l2 a5"><p>19:00 gathering</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>5</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -176,17 +162,13 @@
                         <div class="daybar"><p>6</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="yellow"></li>
-                                <li class="yellow"></li>
-                                <li class="green"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="yellow l1 a8"><p>08:00 Biology</p></li>
-                                <li class="yellow l1 a1"><p>10:00 ICT</p></li>
-                                <li class="green l3 a9"><p>20:00 Cookie bake-off</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Mercredi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -194,32 +176,22 @@
                     <div class="day">
                         <div class="daybar"><p>7</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>8</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="blue"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l3 a10"><p>10:00 Athletics</p></li>
-                                <li class="blue l3 a4"><p>17:00 Date with ...</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -227,15 +199,13 @@
                         <div class="daybar"><p>9</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="red"></li>
-                                <li class="blue"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="red l3 a13"><p>13:00 Competition: Red Hawks - Blue Foxes</p></li>
-                                <li class="blue l4 a2"><p>18:00 Cinema: Tin Tin </p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Samedi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -243,17 +213,9 @@
                     <div class="day brn">
                         <div class="daybar"><p>10</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="green"></li>
-                            </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l2 a11"><p>11:00 studying</p></li>
-                                <li class="green l3 a1"><p>14:00 Door 2 Door cookies</p></li>
-                            </ul>
+                        <div class="open1">
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -263,32 +225,22 @@
                     <div class="day">
                         <div class="daybar"><p>11</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l2 a9"><p>09:00 History project</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>12</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l1 a13"><p>13:00 English task</p></li>
-                                <li class="red l2 a5"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -296,15 +248,13 @@
                         <div class="daybar"><p>13</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="blue"></li>
-                                <li class="green"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="blue l2 a17"><p>17:00 iPhone delivery</p></li>
-                                <li class="green l3 a1"><p>20:00 gathering</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Mercredi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -312,30 +262,22 @@
                     <div class="day">
                         <div class="daybar"><p>14</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>15</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l2 a8"><p>08:00 Spanish</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -343,15 +285,13 @@
                         <div class="daybar"><p>16</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="red"></li>
-                                <li class="blue"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="red l3 a13"><p>13:00 Competition: Green Snakes - Red Hawks</p></li>
-                                <li class="blue l4 a4"><p>20:00 Snowparty</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Samedi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -359,15 +299,11 @@
                     <div class="day brn">
                         <div class="daybar"><p>17</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="green"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="green l5 a14"><p>14:00 Survival</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -377,32 +313,22 @@
                     <div class="day">
                         <div class="daybar"><p>18</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                                <li class="green"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l1 a13"><p>13:00 Math test</p></li>
-                                <li class="green l2 a5"><p>19:00 gathering</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>19</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -410,15 +336,13 @@
                         <div class="daybar"><p>20</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="yellow"></li>
-                                <li class="yellow"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="yellow l2 a8"><p>08:00 English reading</p></li>
-                                <li class="yellow l1 a1"><p>11:00 Physics task</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Mercredi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -426,30 +350,22 @@
                     <div class="day">
                         <div class="daybar"><p>21</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>22</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="blue"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="blue l3 a20"><p>20:00 Zoo Night opening!</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -457,13 +373,13 @@
                         <div class="daybar"><p>23</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="red"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="red l3 a13"><p>13:00 Competition: Red Hawks - Black Ravens</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Samedi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -471,15 +387,11 @@
                     <div class="day brn">
                         <div class="daybar"><p>24</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l3 a9"><p>09:00 studying</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -489,30 +401,22 @@
                     <div class="day">
                         <div class="daybar"><p>25</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="yellow"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="yellow l2 a13"><p>13:00 Math test</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
                     <div class="day">
                         <div class="daybar"><p>26</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -520,13 +424,13 @@
                         <div class="daybar"><p>27</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="green"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="green l3 a20"><p>20:00 gathering</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Mercredi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -534,15 +438,11 @@
                     <div class="day">
                         <div class="daybar"><p>28</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="red"></li>
-                            </ul>
+
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="red l2 a19"><p>19:00 Practice</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -553,7 +453,7 @@
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
                             </ul>
                         </div>
@@ -563,13 +463,13 @@
                         <div class="daybar"><p>30</p></div>
                         <div class="dots">
                             <ul>
-                                <li class="blue"></li>
+                                <li class="blue"</li>
                             </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
+                        <div class="open1">
                             <ul>
-                                <li class="blue l3 a10"><p>10:00 Christmas decoration</p></li>
+                                <li class="blue l3 a18"><a style="color: #ffffff" href="Ateliers.php">18:00 Atelier du Samedi</a></li>
                             </ul>
                         </div>
                         <!-- slide closed -->
@@ -577,15 +477,10 @@
                     <div class="day brn">
                         <div class="daybar"><p>1</p></div>
                         <div class="dots">
-                            <ul>
-                                <li class="green"></li>
-                            </ul>
                         </div>
                         <!-- slide open -->
-                        <div class="open">
-                            <ul>
-                                <li class="green l3 a20"><p>20:00 Quiz night</p></li>
-                            </ul>
+                        <div class="open1">
+
                         </div>
                         <!-- slide closed -->
                     </div>
@@ -601,25 +496,13 @@
 <!--                </div>-->
                 </div>
                 </div>
-                <div class="span3">
-                    <div id="SideBarfirst">
-                        <center><p1><font color="white">Actualités</font></p1></center>
-                    </div>
-                    <p>Il y a du nouveau à Vélocentrix</p>
-                    <p>Ceci est l'actualité, oui oui l'actualité</p>
-                    <p>Quand on en rajoute</p>
-                    <p>Pinpin et ponpon sont des pimpon</p>
-                    <div id="SideBar">
-                        <center><p1><font color="white">Été 2013</font></p1></center>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <div id="push"></div>
 </div>
 <?php
-include("Footer.html")
+include("Footer.php")
 ?>
 </body>
 </html>

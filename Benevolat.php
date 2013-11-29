@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
 </head>
 
@@ -30,7 +31,7 @@
         <div class="contenu border-radius">
             <?php echo "<center>".$row['Titre']."</center>" ?>
             <div class="row-fluid">
-                    <div class="span8"><?php echo $row['Titre'].$row['Paragraphe'] ?>
+                    <div class="span8"><?php echo $row['Paragraphe'] ?>
                     </div>
                 <div class="span4">
                     <center><img width="100%" src="img/Benevolat.jpg"/></center>
@@ -42,7 +43,7 @@
     <div id="push"></div>
 </div>
 <?php
-include("Footer.html")
+include("Footer.php")
 ?>
 </body>
 </html>

@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
 </head>
 
@@ -38,14 +39,7 @@
                     <div id="SideBarfirst">
                         <center><p1><font color="white">Ateliers</font></p1></center>
                     </div>
-                    <p>Il y a du nouveau à Vélocentrix</p>
-                    <p>Ceci est l'actualité, oui oui l'actualité</p>
-                    <p>Quand on en rajoute</p>
-                    <p>Pinpin et ponpon sont des pimpon</p>
-                    <div id="SideBar">
-                        <center><p1><font color="white">Été 2013</font></p1></center>
-                    </div>
-
+                    <?php echo $row['Sidebar'] ?>
                 </div>
             </div>
         </div>
@@ -54,7 +48,7 @@
     <div id="push"></div>
 </div>
 <?php
-include("Footer.html")
+include("Footer.php")
 ?>
 </body>
 </html>

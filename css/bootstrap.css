@@ -6217,9 +6217,12 @@ background-color:#88a65e;
 margin-bottom: 20px;
 }
 #SideBar{
-    background-color:#88a65e;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+}
+#SideBar p strong{
+  background-color: #88a65e;
+  color: #ffffff;
+
 }
 #access{
     background-color: #8C2318;
@@ -6272,4 +6275,19 @@ html,body{
 }
 #listeadmin{
     margin-bottom: 30px;
+}
+#proposition
+{
+    background-color: #C63D0F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    color: #ffffff;
+}
+#deconnexion
+{
+    background-color: #7E8F7C;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
